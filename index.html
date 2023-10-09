@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário do Jonas</title>
+  <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(to right, rgb(197, 142, 14),rgb(88, 54, 6));
+    }
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgb(191, 176, 16)
+        
+
+    }
+  </style>
+</head>
+  <body>
+            <div class="box">
+                <form action="">
+                    <fieldset>
+                    <legend><b>Formulário Campinho</b></legend>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome">Nome</label>
+                    </div>
+                    <br>
+                    <div class="inputBox">
+                        <input type="number" name="Idade" id="Idade" class="inputUser" required>
+                        <label for="Idade">Idade</label>
+                    </div>
+                    <br>
+                    <div class="inputBox">
+                        <input type="email" name="e-mail" id="e-mail" class="inputUser" required>
+                        <label for="e-mail">E-mail</label>
+                    </div>
+                    <br>
+                    <div class="inputBox">
+                       <p>Genêro</p>
+                       <select name="sexo" id="sexo" class="inputUser" required>
+                       <option value="Masculino">Masculino</option>
+                       <option value="Feminino">Feminino</option>
+                       <option value="Outros">Outros</option>                       
+                        </select>                      
+                    </div>
+                    <br>
+                    <div class="inputBox">
+                        <p>Comentários:</p>
+                        <textarea name="comentarios" id="comentarios" class="inputUser" cols="50" rows="10"></textarea>
+                    </div>
+                    <input type="submit" name="submit" id="submit">
+                    </fieldset>
+                </form>
+            </div>     
+</body>
+
+</html>
